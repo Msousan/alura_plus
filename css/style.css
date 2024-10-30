@@ -1,0 +1,141 @@
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-do-texto: "Inter";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-do-texto);
+    font-weight: 400;
+}
+.principal{
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 45%;
+
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__botao{
+    padding: 1em;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    display: block;
+    font-size: 1em;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container_secundario{
+    background-color: transparent;
+    border: 1px solid var(--branco-principal);
+}
+
+.container__aviso{
+    font-size: 12px;
+}
+
+.container__img{
+    margin: 1em 0 2em 0;
+}
+
+.secundario__imagem{
+    width: 90%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 8em  ;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+}
+
+.dispositivos__texto{
+    font-size: 32px;
+}
+.rodape{
+    text-align: center;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 15px;
+    margin: 1em 0;
+}
+
+.rodape__item{
+    font-size: 16px;
+}
+
+.rodape__item a:link{
+    text-decoration: none;
+    color: var(--cinza-secundario);
+}
+
+.rodape__texto{
+    font-size: 14px;
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+}
+
+.rodape__text{
+    font-size: 14px;
+    margin-bottom: 5em;
+    color: var(--cinza-secundario);
+}
